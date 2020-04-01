@@ -1,5 +1,5 @@
 package _5;
-//ÃÖ´ë°ø¾à¼ö , ÃÖ´ë°ø¹è¼ö
+//ìµœëŒ€ê³µì•½ìˆ˜ , ìµœê³µë°°ìˆ˜
 public class ex5 {
 
 	public static void main(String[] args) {
@@ -18,14 +18,14 @@ public class ex5 {
 			small = num1;
 		}
 		
-		//ÃÖ´ë°ø¾à¼ö
+		//ìµœëŒ€ê³µì•½ìˆ˜
 		for(int i = 1; i <= small; i++) {
 			if(big % i == 0 && small % i == 0) {
 				a = i;
 			}
 		}
 		
-		//ÃÖ¼Ò°ø¹è¼ö
+		//ìµœì†Œê³µë°°ìˆ˜
 		int []arr = new int[20];
 		int n=0;
 		
@@ -53,8 +53,8 @@ public class ex5 {
 		}
 		b = b * big * small;
 
-		System.out.println("ÃÖ´ë°ø¾à¼ö:" + a);
-		System.out.println("ÃÖ¼Ò°ø¹è¼ö:" + b);
+		System.out.println("ìµœëŒ€ê³µì•½ìˆ˜:" + a);
+		System.out.println("ìµœì†Œê³µë°°ìˆ˜:" + b);
 	}
 
 }
